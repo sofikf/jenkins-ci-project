@@ -27,3 +27,4 @@ python -m unittest discover -s tests -v
 
 ## CI Pipeline
 Jenkins retrieves the source code from GitHub, executes the application tests, and reports the build result.
+This project uses Jenkins Poll SCM to automatically detect GitHub changes and run the CI pipeline.
